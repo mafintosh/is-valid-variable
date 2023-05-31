@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Check if a token is a valid variable name",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "scripts": {
+    "test": "standard && brittle test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.3.0",
+    "standard": "^17.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/is-valid-variable.git"

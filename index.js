@@ -43,5 +43,5 @@ function isValidExport (name) {
       return false
   }
 
-  return /^[a-zA-Z_$][a-zA-Z_$0-9]+$/.test(name)
+  return /^[a-zA-Z_$][a-zA-Z_$0-9]*$/.test(name)
 }
