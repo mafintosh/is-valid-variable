@@ -1,6 +1,6 @@
 {
   "name": "is-valid-variable",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if a token is a valid variable name",
   "main": "index.js",
   "dependencies": {},
